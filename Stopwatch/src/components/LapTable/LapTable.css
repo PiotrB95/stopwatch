@@ -1,0 +1,16 @@
+.lap-table {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 600px;
+    text-align: left;
+}
+
+.lap-table td, th {
+    width: 50%;
+    padding: 10px;
+    border-bottom: 1px solid lightblue;
+}
+
+.lap-table tfoot {
+    font-weight: bold;
+}
