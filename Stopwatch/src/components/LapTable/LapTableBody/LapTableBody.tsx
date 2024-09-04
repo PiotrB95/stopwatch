@@ -11,7 +11,7 @@ export const LapTableBody = (props: Props) => {
     return (
         <tbody>
         {props.dataLap.map((i) => (
-            <LapTableRow lap={i.lap} time={i.time}/>
+            <LapTableRow key={i.lap} lap={i.lap} time={i.time}/>
         ))}
         </tbody>
     )
