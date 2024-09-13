@@ -1,3 +1,10 @@
 .stopwatch{
     display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.clocks{
+    display: flex;
+    justify-content: space-between;
 }

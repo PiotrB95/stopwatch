@@ -52,3 +52,12 @@
 .reset:hover {
     background-color: #b17d2e;
 }
+
+.lap {
+    background-color: #1a85cc;
+    transition: 0.5s;
+}
+
+.lap:hover {
+    background-color: #1840f0;
+}
