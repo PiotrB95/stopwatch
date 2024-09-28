@@ -1,10 +1,12 @@
 import {LapTableRow} from "../LapTableRow/LapTableRow.tsx";
 
+
+interface SingleData {
+    lap: number
+    time: string
+}
 interface Props {
-    dataLap: {
-        lap: number;
-        time: string
-    }[]
+   dataLap: SingleData[]
 }
 
 export const LapTableBody = (props: Props) => {
