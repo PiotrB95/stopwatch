@@ -1,0 +1,15 @@
+.mainTimer {
+    font-size: 40px;
+    border: 2px solid lightblue;
+    padding: 30px 60px;
+    border-radius: 15px;
+    margin: 20px;
+}
+
+.lapTimer {
+    font-size: 40px;
+    border: 2px dashed lightblue;
+    padding: 30px 60px;
+    border-radius: 15px;
+    margin: 20px;
+}
